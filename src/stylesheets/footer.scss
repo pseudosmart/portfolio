@@ -1,0 +1,26 @@
+.footer {
+  background-color: rgba(128, 128, 128, 0.8);
+  border-top: 2px solid silver;
+  height: 50px;
+
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+
+  .social-icons {
+    text-align: right;
+    padding: 5px;
+    a {
+      height: 40px;
+      width: 40px;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+
+    i {
+      color: #000;
+      font-size: 40px
+    }
+  }
+}
