@@ -1,7 +1,6 @@
 import React from 'react'
 const SamThumbnail = require('../../assets/SamCanterburyOct2018.png')
 
-
 const HomeContainer = () => {
   return (
   <div className="profile">

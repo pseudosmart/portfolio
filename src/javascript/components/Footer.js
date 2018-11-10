@@ -10,7 +10,7 @@ class Footer extends Component {
           <a href="mailto:sam.j.b.smart@gmail.com"><i className="fas fa-envelope-square" /></a>
         </div>
       </div>
-    );
+    )
   }
 }
 
