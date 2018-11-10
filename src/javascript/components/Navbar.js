@@ -1,18 +1,25 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
 
 class Navbar extends Component {
+  constructor (props) {
+    super(props)
+    this.links = ['CV', 'Projects', 'Other']
+  }
+  
   render() {
-    const {toggleContainer} = this.props
     return (
       <div className="navbar">
         <ul>
-          <li onClick={toggleContainer}>Home</li>
-          <li>CV</li>
-          <li>Projects</li>
-          <li>Other</li>
+          <li><Link to='/'>Home</Link></li>
+          {
+            this.links.map(link => (
+              <li key={link}><Link to={link}>{link}</Link></li>
+            ))
+          }
         </ul>
       </div>
-    );
+    )
   }
 }
 
