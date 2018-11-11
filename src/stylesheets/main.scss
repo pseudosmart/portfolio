@@ -1,5 +1,20 @@
+html {
+  overflow: hidden;
+  height: 100%;
+}
+
 body {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
   margin: 0;
+}
+
+#root {
+  height: 100%;
+}
+
+.background {
   background: url('../assets/Jellybeans.png') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -8,56 +23,15 @@ body {
   background-repeat:no-repeat;
 }
 
-.thumbnail figure img  {
-  width: 200px;
-  border-radius: 50%;
-
-  -webkit-transform: scale(1);
-	transform: scale(1);
-	-webkit-transition: .3s ease-in-out;
-  transition: .3s ease-in-out;
+.text-muted {
+  opacity: 0.5;
 }
 
-.thumbnail figure:hover img {
-	-webkit-transform: scale(1.3);
-  transform: scale(1.3);
-  // cursor: pointer;
-}
-
-.profile {
-  margin-top: 15%;
-}
-
-figure {
-  border-radius: 50%;
-  border: 3px solid silver;
-	width: 200px;
-	height: 200px;
-	margin: 0;
-	padding: 0;
-  overflow: hidden;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.bio {
-  text-align: center;
-  color: black;
-  font-size: 20px;
-  -webkit-text-fill-color: white;
-  -webkit-text-stroke-width: 0.2px;
-  -webkit-text-stroke-color: black;
-
-  a {
-    text-decoration: none;
-    // color: black;
-    // font-size: 20px;
-    // -webkit-text-fill-color: white;
-    // -webkit-text-stroke-width: 0.2px;
-    // -webkit-text-stroke-color: black;
-  }
+.list-unstyled {
+  list-style-type: none;
 }
 
 @import './navbar.scss';
 @import './footer.scss';
+@import './cv.scss';
+@import './home.scss';
