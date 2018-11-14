@@ -52,12 +52,17 @@ const CVContainer = () => (
           <h3>Web Developer, Placement Student - Holiday Extras</h3>
           <p className="text-muted">July 2015 - September 2016</p>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies massa et erat luctus hendrerit. Curabitur non consequat enim. Vestibulum bibendum mattis dignissim. Proin id sapien quis libero interdum porttitor.
+            This was an excellent opportunity for me to grow and develop my limited JavaScript knowledge in a very safe but practical environment.
+            Early on I was tasked with converting one of the company's monoliths from CoffeeScript to pure JavaScript as I was new to Javascript I used this as a teaching opportunity and to launch myself onto bigger and better tasks.
+            After proving myself, I was rapidly treated as a full engineer and had to live up to the expectations and responsibilities that came with that.  
           </p>
 
           <h3>Peer Tutor (School Of Computing) - University of Kent</h3>
           <p className="text-muted">September 2014 - June 2015</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies massa et erat luctus hendrerit. Curabitur non consequat enim. Vestibulum bibendum mattis dignissim. Proin id sapien quis libero interdum porttitor.</p>
+          <p>
+            During my time in this role, I was expected to assist first-year students with any technical problems they were having.
+            It developed my communication and coaching abilities alongside my problem-solving skills and showed me the importance of pitching at the correct technical level.
+          </p>
         </div>
       </section>
 
@@ -97,7 +102,7 @@ const CVContainer = () => (
           <h3>St Laurence Secondary School</h3>
           <p className="text-muted">September 2006 - July 2013</p>
           <ul className="list-unstyled">
-            <li>3 A-Levels: Mathematics, Futher Mathematics and Physics</li>
+            <li>3 A-Levels: Mathematics, Further Mathematics and Physics</li>
             <li>AS-Level: Chemistry</li>
             <li>12 GCSEs: Including English, Mathematics and Science </li>
           </ul>
